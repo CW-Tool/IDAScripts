@@ -69,8 +69,10 @@ static HandleLuaFunc(structBase)
 static main()
 {
     auto registerFunc, xRef;
-    registerFunc = registerFunc = FindBinary(0, SEARCH_DOWN, "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B 1D ? ? ? ? 48 8B F9 8B F2 48 8B CB 49 8B D0 49 8B E8 E8 ? ? ? ? BA ? ? ? ?");
+    registerFunc = registerFunc = FindBinary(0, SEARCH_DOWN, "48 89 5C 24 ? 57 48 83 EC 20 48 8B 3D ? ? ? ? 48 8B D9 66 0F 6E CA 48 8B CF F3 0F E6 C9 E8 ? ? ? ? 48 8B D3 48 8B CF E8 ? ? ? ? BA ? ? ? ? 48 8B CF E8 ? ? ? ? BA ? ? ? ? 48 8B CF 48 8B 5C 24 ? 48 83 C4 20 5F E9 ? ? ? ?");
 
+    //2.5.4.41446 48 89 5C 24 ? 57 48 83 EC 20 48 8B 3D ? ? ? ? 48 8B D9 66 0F 6E CA 48 8B CF F3 0F E6 C9 E8 ? ? ? ? 48 8B D3 48 8B CF E8 ? ? ? ? BA ? ? ? ? 48 8B CF E8 ? ? ? ? BA ? ? ? ? 48 8B CF 48 8B 5C 24 ? 48 83 C4 20 5F E9 ? ? ? ? 
+    
     Message("FrameScript__RegisterFunctionNamespaceWithCount at 0x%X\n", registerFunc);
 
     for (xRef = RfirstB(registerFunc); xRef != BADADDR; xRef = RnextB(registerFunc, xRef))
