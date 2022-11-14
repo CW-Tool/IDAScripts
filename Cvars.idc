@@ -94,8 +94,9 @@ static ExtractCvarName(xRef)
 static main()
 {
     auto cvarRegister, xRef;
-
-    cvarRegister = FindBinary(0, SEARCH_DOWN, "4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 81 EC F0 00 00 00");
+    //2.5.2.41446  4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 81 EC F0 00 00 00
+    //3.4.0.46368T 4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 54 41 55 41 56 41 57 48 81 EC D0 00 00 00
+    cvarRegister = FindBinary(0, SEARCH_DOWN, "4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 54 41 55 41 56 41 57 48 81 EC D0 00 00 00");
     Message("OK------>cvarRegister_RegisterFunction at 0x%X\n", cvarRegister);
 
     for (xRef = RfirstB(cvarRegister); xRef != BADADDR; xRef = RnextB(cvarRegister, xRef))
