@@ -111,4 +111,6 @@ static main()
             RenameFunc(cvarDest, form("s_Cvar_%s", cvarName));
         }
     }
+	
+	 Message("Done \n");
 }
