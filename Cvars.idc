@@ -38,7 +38,7 @@ static RenameFunc(dwAddress, sFunction)
                 Message("-- Error --: Failed to rename %s -> %s\n", oldName, sFunction);
         }
         else
-            Message("%s 0x%X\n", sFunction, dwAddress);
+            Message("OK------>%s 0x%X\n", sFunction, dwAddress);
     }
 
     return dwRet;
@@ -95,15 +95,16 @@ static main()
 {
     auto cvarRegister, xRef;
 
-    cvarRegister = FindBinary(0, SEARCH_DOWN, "48 8B C4 55 56 41 55 41 57 48 83 EC 48");
-    Message("cvarRegister_RegisterFunction at 0x%X\n", cvarRegister);
+    cvarRegister = FindBinary(0, SEARCH_DOWN, "4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 81 EC F0 00 00 00");
+    Message("OK------>cvarRegister_RegisterFunction at 0x%X\n", cvarRegister);
 
     for (xRef = RfirstB(cvarRegister); xRef != BADADDR; xRef = RnextB(cvarRegister, xRef))
     {
         auto cvarDest, cvarName;
         cvarName = ExtractCvarName(xRef);
         cvarDest = ExtractCvarDest(xRef);
-
+        Message("OK------>cvarName:%s\n", cvarName);
+        
         if (cvarDest)
         {
             RenameFunc(cvarDest, form("s_Cvar_%s", cvarName));

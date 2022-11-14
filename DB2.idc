@@ -13,7 +13,9 @@ static main()
         return;
     }
 
-    // time to loop through and find all cross references to the wow DB_Common_Load function we found above!
+    Message("OK------>curAddr at 0x%X\n", curAddr);
+    
+     // time to loop through and find all cross references to the wow DB_Common_Load function we found above!
     for (xref = RfirstB(curAddr); xref != BADADDR; xref = RnextB(curAddr, xref))
     {
         auto prevFunc, nextFunc, disasm, disasmAddr, dbAddress, dbNameAddress;
@@ -23,8 +25,9 @@ static main()
         disasmAddr = xref;
 
         disasmAddr = PrevHead(disasmAddr, prevFunc);
-        //Message("GetOperandValue at 0x%X\n", disasmAddr);
+        //Message("OK------>GetOperandValue at 0x%X\n", disasmAddr);
         disasm = GetDisasm(disasmAddr);
+        //Message("OK------>disasm at %s\n", disasm);
         if (strstr(disasm, "lea") > -1 && strstr(disasm, "rcx") > -1)
         {
             dbAddress = GetOperandValue(disasmAddr, 1);
@@ -39,13 +42,13 @@ static main()
         }
 
         disasmAddr = PrevHead(disasmAddr, prevFunc);
-        //Message("disasmAddr at 0x%X\n", disasmAddr);
-        disasm = GetDisasm(disasmAddr);
-        //Message("disasm at 0x%X\n", disasm);
-        if (strstr(disasm, "lea") > -1 && strstr(disasm, "rdx") > -1)
+        //Message("OK------>disasmAddr at 0x%X\n", disasmAddr);
+        //disasm = GetDisasm(disasmAddr);
+        //Message("OK------>disasm at %s\n", disasm);
+        if (strstr(disasm, "lea") > -1 && strstr(disasm, "rcx") > -1)
         {
             dbNameAddress = GetOperandValue(disasmAddr, 1);
-            //Message("dbNameAddress at 0x%X\n", dbNameAddress);
+            //Message("OK------>dbNameAddress at 0x%X\n", dbNameAddress);
             if (dbNameAddress == BADADDR)
             {
                 continue;
@@ -55,19 +58,20 @@ static main()
         {
             continue;
         }
-
         auto dbName;
+        //Message("OK------>dbNameAddress at 0x%X\n", dbNameAddress);
         dbName = WoWDb_GetName(dbNameAddress);
-
+        //Message("OK------>%s = 0x%x\n", dbName, dbAddress);
         if (strlen(dbName) == 0)
         {
             break;
         }
 
         RenameFunc(dbAddress, form("%sDB", dbName));
-        Message("%s = 0x%x\n", dbName, dbAddress);
+        Message("OK------>%s = 0x%x\n", dbName, dbAddress);
     }
 }
+
 
 // 1 = Success, 0 = Failure
 static RenameFunc(dwAddress, sFunction)
