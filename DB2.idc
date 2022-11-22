@@ -5,7 +5,10 @@ static main()
     auto curAddr, xref;
 
     // DB2Load
-    curAddr = FindBinary(0, SEARCH_DOWN, "40 53 48 83 EC 50 48 89 51 08 48 8D 05 ? ? ? ? 48 89 01");
+	//40 53 48 83 EC 50 48 89 51 08 48 8D 05 ? ? ? ? 48 89 01
+	//3.4.1.46722T 4C 8B DC 53 57 48 81 EC ?? ?? ?? ?? 48 89 51 08 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B D9 33 C0 48
+	//search ChrClasses, click x find the linking, the next call is DB2load
+    curAddr = FindBinary(0, SEARCH_DOWN, "4C 8B DC 53 57 48 81 EC ?? ?? ?? ?? 48 89 51 08 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B D9 33 C0 48");
 
     if (curAddr == BADADDR)
     {

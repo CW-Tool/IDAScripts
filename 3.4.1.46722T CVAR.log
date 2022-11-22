@@ -1,0 +1,1491 @@
+OK------>cvarRegister_RegisterFunction at 0x35BA20
+OK------>cvarName:portal
+OK------>cvarName:textLocale
+OK------>cvarName:audioLocale
+OK------>cvarName:locale
+OK------>cvarName:agentUID
+OK------>cvarName:timingTestError
+OK------>s_Cvar_timingTestError 0x3260B60
+OK------>cvarName:Desired method for game timing
+OK------>cvarName:enableAssetTracking
+OK------>cvarName:launchAgent
+OK------>s_Cvar_launchAgent 0x3260B68
+OK------>cvarName:Whether or not the client loads alternate data
+OK------>cvarName:simd
+OK------>cvarName:Sets which core(s) WoW may execute on - changes require restart to take effect
+OK------>cvarName:
+OK------>s_Cvar_ 0x3261A38
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:ErrorFileLog
+OK------>cvarName:M2UseThreads
+OK------>s_Cvar_M2UseThreads 0x3261A20
+OK------>cvarName:
+OK------>cvarName:use hardware instancing
+OK------>cvarName:gameTip
+OK------>s_Cvar_gameTip 0x3262570
+OK------>cvarName:targetFPS
+OK------>cvarName:useTargetFPS
+OK------>s_Cvar_useTargetFPS 0x32636A0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Enable dynamic sensitivity threshold based on target FPS for VRS
+OK------>cvarName:luaErrorExceptions
+OK------>cvarName:Saved account name
+OK------>cvarName:accountList
+OK------>s_Cvar_accountList 0x3264738
+OK------>cvarName:g_accountUsesToken
+OK------>s_Cvar_g_accountUsesToken 0x3264740
+OK------>cvarName:playIntroMovie
+OK------>s_Cvar_playIntroMovie 0x3264748
+OK------>cvarName:movieSubtitle
+OK------>cvarName:showLoadingScreenTips
+OK------>cvarName:Engine Survey Index
+OK------>cvarName:engineSurveyPatch
+OK------>s_Cvar_engineSurveyPatch 0x3262520
+OK------>cvarName:checkAddonVersion
+OK------>s_Cvar_checkAddonVersion 0x3262528
+OK------>cvarName:lastAddonVersion
+OK------>s_Cvar_lastAddonVersion 0x3264750
+OK------>cvarName:
+OK------>cvarName:mouseSpeed
+OK------>s_Cvar_mouseSpeed 0x32647B0
+OK------>cvarName:
+OK------>cvarName:Errors
+OK------>cvarName:showErrors
+OK------>cvarName:ErrorLevelMin
+OK------>cvarName:ErrorLevelMax
+OK------>cvarName:ErrorFilter
+OK------>cvarName:lastCharacterIndex
+OK------>cvarName:lastCharacterGuid
+OK------>s_Cvar_lastCharacterGuid 0x3264760
+OK------>cvarName:Seen the free character upgrade popup
+OK------>cvarName:seenExpansionTrialPopup
+OK------>s_Cvar_seenExpansionTrialPopup 0x3264770
+OK------>cvarName:seenLevelSquishPopup
+OK------>s_Cvar_seenLevelSquishPopup 0x3264778
+OK------>cvarName:seenConfigurationWarnings
+OK------>s_Cvar_seenConfigurationWarnings 0x3264780
+OK------>cvarName:
+OK------>cvarName:Set the quality of screenshots (1 - 10)
+OK------>cvarName:Set the size of screenshots to a specific resolution (e.g. 7680x4320). 0x0 means use the window size
+OK------>cvarName:expandUpgradePanel
+OK------>cvarName:seenAlliedRaceUnlocks
+OK------>cvarName:debugLog0
+OK------>cvarName:debugLog1
+OK------>cvarName:debugLog2
+OK------>cvarName:Whether we want advanced combat log data sent from the server
+OK------>cvarName:skipStartGear
+OK------>s_Cvar_skipStartGear 0x3264790
+OK------>cvarName:preloadPlayerModels
+OK------>s_Cvar_preloadPlayerModels 0x3264798
+OK------>cvarName:Set key that opens the console
+OK------>cvarName:Whether ref history tracking is enabled.  Disabling may slightly improve performance, but at the cost of less information when leaks occur.
+OK------>cvarName:Enable raw mouse input
+OK------>cvarName:Enable acceleration for raw mouse input
+OK------>cvarName:Raw mouse update rate
+OK------>cvarName:Raw mouse resolution
+OK------>cvarName:During camera control, only reposition mouse cursor when nearing edge of window, rather than every input event
+OK------>cvarName:Disables repositioning of mouse cursor during relative movement to keep it in the game's window frame
+OK------>cvarName:Size of cursor: -1=determine based on system/monitor dpi, 0=32x32, 1=48x48, 2=64x64, 3=96x96, 4=128x128
+OK------>cvarName:
+OK------>cvarName:Set loading screen max FPS
+OK------>cvarName:Show additional information about game events
+OK------>cvarName:
+OK------>cvarName:showUnactivatedCharacters
+OK------>cvarName:seenTBCInfoPane
+OK------>s_Cvar_seenTBCInfoPane 0x32647B8
+OK------>cvarName:Whether or not the user has heard the special SFX for the first transition choice selection.
+OK------>cvarName:Whether or not the user has seen the Season of Mastery notification at least once.
+OK------>cvarName:componentTextureLevel
+OK------>cvarName:Multi thread character component processing
+OK------>cvarName:Character component texture compression
+OK------>cvarName:Character component texture loading limit per frame
+OK------>cvarName:Character component texture cache size (in MB)
+OK------>cvarName:Character component specular highlights
+OK------>cvarName:Character component unlit/emissive
+OK------>cvarName:Level of detail for character component textures. 0 means full detail.
+OK------>cvarName:hwDetect
+OK------>s_Cvar_hwDetect 0x3279AA8
+OK------>cvarName:vsync
+OK------>cvarName:CPU memory saving mode, if supported by backend. When enabled, shaders are fetched from disk as needed instead of being kept resident. This mode may slightly increase the time objects take to appear the first time they are encountered. Computers without solid state drives may want to disable this feature
+OK------>cvarName:constrain window aspect
+OK------>cvarName:maximum number of frames ahead of GPU the CPU can be
+OK------>cvarName:Enable frame crash debugging
+OK------>cvarName:prevent resizing in windowed mode
+OK------>cvarName:graphicsQuality
+OK------>s_Cvar_graphicsQuality 0x3279AC8
+OK------>cvarName:RAIDgraphicsQuality
+OK------>s_Cvar_RAIDgraphicsQuality 0x3279AF0
+OK------>cvarName:
+OK------>cvarName:Do nothing = 0. Shift UI down = 1. Shift everything down = 2.
+OK------>cvarName:
+OK------>cvarName:ForceResolutionDefaultToMaxSize
+OK------>s_Cvar_ForceResolutionDefaultToMaxSize 0x3279AD0
+OK------>cvarName:
+OK------>cvarName:gxMaximize
+OK------>s_Cvar_gxMaximize 0x3279AB8
+OK------>cvarName:gxMonitor
+OK------>s_Cvar_gxMonitor 0x3279AB8
+OK------>cvarName:gxFullscreenResolution
+OK------>s_Cvar_gxFullscreenResolution 0x3279A70
+OK------>cvarName:gxWindowedResolution
+OK------>s_Cvar_gxWindowedResolution 0x3279A78
+OK------>cvarName:gxNewResolution
+OK------>s_Cvar_gxNewResolution 0x3279A78
+OK------>cvarName:videoOptionsVersion
+OK------>s_Cvar_videoOptionsVersion 0x3279A68
+OK------>cvarName:reloadUIOnAspectChange
+OK------>s_Cvar_reloadUIOnAspectChange 0x3279AC0
+OK------>cvarName:
+OK------>cvarName:0
+OK------>cvarName:ffxAntiAliasingMode
+OK------>s_Cvar_ffxAntiAliasingMode 0x32F61F0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Contrast adjustment. Range: [0 - 100]
+OK------>cvarName:Brightness adjustment. Range: [0 - 100]
+OK------>cvarName:Gamma correction. Range: [0.3 - 2.8]
+OK------>cvarName:CMAA2Quality
+OK------>s_Cvar_CMAA2Quality 0x32F6210
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:validateFrameXML
+OK------>s_Cvar_validateFrameXML 0x32FB870
+OK------>cvarName:TargetPriorityAllowAnyOnScreen
+OK------>cvarName:TargetPriorityHoldHighlightDelay
+OK------>s_Cvar_TargetPriorityHoldHighlightDelay 0x32FC290
+OK------>cvarName:TargetPriorityCombatLock
+OK------>s_Cvar_TargetPriorityCombatLock 0x32FC298
+OK------>cvarName:TargetPriorityCombatLockHighlight
+OK------>s_Cvar_TargetPriorityCombatLockHighlight 0x32FC2A0
+OK------>cvarName:TargetPriorityCombatLockContextualRelaxation
+OK------>s_Cvar_TargetPriorityCombatLockContextualRelaxation 0x32FC2A8
+OK------>cvarName:TargetPriorityPvp
+OK------>s_Cvar_TargetPriorityPvp 0x32FC2B0
+OK------>cvarName:Lock to important pvp targets when starting from a pvp target.
+OK------>cvarName:TargetPriorityPvpLockHighlight
+OK------>s_Cvar_TargetPriorityPvpLockHighlight 0x32FC2C0
+OK------>cvarName:TargetPriorityValueBank
+OK------>s_Cvar_TargetPriorityValueBank 0x32FC2C8
+OK------>cvarName:TargetPriorityContinueFromManualTarget
+OK------>s_Cvar_TargetPriorityContinueFromManualTarget 0x32FC2D0
+OK------>cvarName:TargetPriorityAutoTargetIgnoreWindow
+OK------>s_Cvar_TargetPriorityAutoTargetIgnoreWindow 0x32FC2D8
+OK------>cvarName:TargetPriorityFrustumPullInSides
+OK------>s_Cvar_TargetPriorityFrustumPullInSides 0x32FC2E0
+OK------>cvarName:TargetPriorityFrustumPullInTop
+OK------>s_Cvar_TargetPriorityFrustumPullInTop 0x32FC2E8
+OK------>cvarName:Percentage towards center to pull in bottom edge of the screen for in-view checks
+OK------>cvarName:TargetPriorityUpdateDelay
+OK------>s_Cvar_TargetPriorityUpdateDelay 0x32FC2F8
+OK------>cvarName:SoftTargetWithLocked
+OK------>s_Cvar_SoftTargetWithLocked 0x32FC300
+OK------>cvarName:SoftTargetMatchLocked
+OK------>s_Cvar_SoftTargetMatchLocked 0x32FC308
+OK------>cvarName:SoftTargetForce
+OK------>s_Cvar_SoftTargetForce 0x32FC310
+OK------>cvarName:SoftTargetInteract
+OK------>s_Cvar_SoftTargetInteract 0x32FBD30
+OK------>cvarName:SoftTargetInteractRange
+OK------>s_Cvar_SoftTargetInteractRange 0x32FC318
+OK------>cvarName:SoftTargetInteractRangeIsHard
+OK------>s_Cvar_SoftTargetInteractRangeIsHard 0x32FC320
+OK------>cvarName:SoftTargetInteractArc
+OK------>s_Cvar_SoftTargetInteractArc 0x32FC328
+OK------>cvarName:SoftTargetEnemy
+OK------>s_Cvar_SoftTargetEnemy 0x32FC330
+OK------>cvarName:SoftTargetEnemyRange
+OK------>s_Cvar_SoftTargetEnemyRange 0x32FC338
+OK------>cvarName:SoftTargetEnemyArc
+OK------>s_Cvar_SoftTargetEnemyArc 0x32FC340
+OK------>cvarName:SoftTargetFriend
+OK------>s_Cvar_SoftTargetFriend 0x32FC348
+OK------>cvarName:SoftTargetFriendRange
+OK------>s_Cvar_SoftTargetFriendRange 0x32FC350
+OK------>cvarName:SoftTargetFriendArc
+OK------>s_Cvar_SoftTargetFriendArc 0x32FC358
+OK------>cvarName:Always show nameplates for soft enemy target
+OK------>cvarName:SoftTargetNameplateFriend
+OK------>s_Cvar_SoftTargetNameplateFriend 0x32FBD38
+OK------>cvarName:SoftTargetNameplateInteract
+OK------>s_Cvar_SoftTargetNameplateInteract 0x32FBD40
+OK------>cvarName:SoftTargetIconEnemy
+OK------>s_Cvar_SoftTargetIconEnemy 0x32FBD48
+OK------>cvarName:SoftTargetIconFriend
+OK------>s_Cvar_SoftTargetIconFriend 0x32FBD50
+OK------>cvarName:SoftTargetIconInteract
+OK------>s_Cvar_SoftTargetIconInteract 0x32FBD58
+OK------>cvarName:SoftTargetIconGameObject
+OK------>s_Cvar_SoftTargetIconGameObject 0x32FBD60
+OK------>cvarName:Size of soft target icon on nameplate (0 to disable)
+OK------>cvarName:SoftTargetWorldtextSize
+OK------>s_Cvar_SoftTargetWorldtextSize 0x32FBD70
+OK------>cvarName:SoftTargetWorldtextNearScale
+OK------>s_Cvar_SoftTargetWorldtextNearScale 0x32FBD78
+OK------>cvarName:SoftTargetWorldtextNearDist
+OK------>s_Cvar_SoftTargetWorldtextNearDist 0x32FBD80
+OK------>cvarName:SoftTargetWorldtextFarDist
+OK------>s_Cvar_SoftTargetWorldtextFarDist 0x32FBD88
+OK------>cvarName:SoftTargetLowPriorityIcons
+OK------>s_Cvar_SoftTargetLowPriorityIcons 0x32FBD90
+OK------>cvarName:SoftTargetTooltipEnemy
+OK------>s_Cvar_SoftTargetTooltipEnemy 0x32FBD98
+OK------>cvarName:SoftTargetTooltipFriend
+OK------>s_Cvar_SoftTargetTooltipFriend 0x32FC368
+OK------>cvarName:SoftTargetTooltipInteract
+OK------>s_Cvar_SoftTargetTooltipInteract 0x32FC370
+OK------>cvarName:SoftTargetTooltipLocked
+OK------>s_Cvar_SoftTargetTooltipLocked 0x32FC378
+OK------>cvarName:SoftTargetTooltipDurationMs
+OK------>s_Cvar_SoftTargetTooltipDurationMs 0x32FC380
+OK------>cvarName:UseSlug
+OK------>s_Cvar_UseSlug 0x34FD5C0
+OK------>cvarName:SlugSupersampling
+OK------>s_Cvar_SlugSupersampling 0x34FD5C0
+OK------>cvarName:SlugOpticalWeight
+OK------>s_Cvar_SlugOpticalWeight 0x34FD5C8
+OK------>cvarName:ForceGenerateSlug
+OK------>s_Cvar_ForceGenerateSlug 0x34FD5D0
+OK------>cvarName:mtParticles
+OK------>cvarName:animFrameSkipLOD
+OK------>s_Cvar_animFrameSkipLOD 0x3510CA0
+OK------>cvarName:hotReloadModels
+OK------>s_Cvar_hotReloadModels 0x3510CA8
+OK------>cvarName:forceLODCheck
+OK------>s_Cvar_forceLODCheck 0x3510CB0
+OK------>cvarName:textureErrorColors
+OK------>s_Cvar_textureErrorColors 0x3510CB8
+OK------>cvarName:SplineOpt
+OK------>s_Cvar_SplineOpt 0x3511DA0
+OK------>cvarName:persistMoveLogOnTransfer
+OK------>s_Cvar_persistMoveLogOnTransfer 0x3511DA8
+OK------>cvarName:movementMaxEventLateTime
+OK------>s_Cvar_movementMaxEventLateTime 0x3511DB0
+OK------>cvarName:movementMaxEventEarlyTime
+OK------>s_Cvar_movementMaxEventEarlyTime 0x3511DB8
+OK------>cvarName:movementGlobalsMissing
+OK------>cvarName:
+OK------>cvarName:disableServerNagle
+OK------>s_Cvar_disableServerNagle 0x3512260
+OK------>cvarName:debugAllocTrackStacktrace
+OK------>cvarName:debugAllocSingleBlade
+OK------>s_Cvar_debugAllocSingleBlade 0x3512DF8
+OK------>cvarName:Should we use debug allocators (level: 0, 1, 2)
+OK------>cvarName:streamingCameraRadius
+OK------>cvarName:streamingCameraMaxRadius
+OK------>s_Cvar_streamingCameraMaxRadius 0x3516CA8
+OK------>cvarName:streamingCameraLookAheadTime
+OK------>s_Cvar_streamingCameraLookAheadTime 0x3516CB0
+OK------>cvarName:FrameBufferCacheForceNoHeaps
+OK------>s_Cvar_FrameBufferCacheForceNoHeaps 0x35177B8
+OK------>cvarName:ResampleSharpness
+OK------>cvarName:ResampleAlwaysSharpen
+OK------>cvarName:SoundPerf_VariationCap
+OK------>s_Cvar_SoundPerf_VariationCap 0x351C358
+OK------>cvarName:Sound_EnablePositionalLowPassFilter
+OK------>s_Cvar_Sound_EnablePositionalLowPassFilter 0x351C360
+OK------>cvarName:Sound_AmbienceHighpassDSPCutoff
+OK------>s_Cvar_Sound_AmbienceHighpassDSPCutoff 0x351C8B8
+OK------>cvarName:Sound_AllyPlayerHighpassDSPCutoff
+OK------>s_Cvar_Sound_AllyPlayerHighpassDSPCutoff 0x351C8C0
+OK------>cvarName:Sound_EnemyPlayerHighpassDSPCutoff
+OK------>s_Cvar_Sound_EnemyPlayerHighpassDSPCutoff 0x351C8C8
+OK------>cvarName:Sound_NPCHighpassDSPCutoff
+OK------>s_Cvar_Sound_NPCHighpassDSPCutoff 0x351C8D0
+OK------>cvarName:ChatMusicVolume
+OK------>cvarName:ChatSoundVolume
+OK------>cvarName:ChatAmbienceVolume
+OK------>cvarName:Sound_NumChannels
+OK------>s_Cvar_Sound_NumChannels 0x351D8B0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Sound_OutputDriverName
+OK------>s_Cvar_Sound_OutputDriverName 0x351D8C0
+OK------>cvarName:Sound_VoiceChatInputDriverIndex
+OK------>s_Cvar_Sound_VoiceChatInputDriverIndex 0x351D8C8
+OK------>cvarName:Sound_VoiceChatInputDriverName
+OK------>s_Cvar_Sound_VoiceChatInputDriverName 0x351D9A8
+OK------>cvarName:Sound_VoiceChatOutputDriverIndex
+OK------>s_Cvar_Sound_VoiceChatOutputDriverIndex 0x351D9B0
+OK------>cvarName:
+OK------>cvarName:Sound_DSPBufferSize
+OK------>s_Cvar_Sound_DSPBufferSize 0x351D9C0
+OK------>cvarName:Sound_OutputSampleRate
+OK------>s_Cvar_Sound_OutputSampleRate 0x351D8D0
+OK------>cvarName:Sound_EnableMixMode2
+OK------>s_Cvar_Sound_EnableMixMode2 0x351D8E0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Enables music
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Sound_ListenerAtCharacter
+OK------>s_Cvar_Sound_ListenerAtCharacter 0x351D938
+OK------>cvarName:Sound_EnableEmoteSounds
+OK------>s_Cvar_Sound_EnableEmoteSounds 0x351D940
+OK------>cvarName:Sound_ZoneMusicNoDelay
+OK------>s_Cvar_Sound_ZoneMusicNoDelay 0x351D948
+OK------>cvarName:Sound_EnableArmorFoleySoundForSelf
+OK------>s_Cvar_Sound_EnableArmorFoleySoundForSelf 0x351D950
+OK------>cvarName:Sound_EnableArmorFoleySoundForOthers
+OK------>s_Cvar_Sound_EnableArmorFoleySoundForOthers 0x351D958
+OK------>cvarName:Sound_EnableDSPEffects
+OK------>s_Cvar_Sound_EnableDSPEffects 0x351D968
+OK------>cvarName:Sound_EnablePetSounds
+OK------>s_Cvar_Sound_EnablePetSounds 0x351D990
+OK------>cvarName:
+OK------>cvarName:Max sound size that will be cached, larger files will be streamed instead
+OK------>cvarName:FootstepSounds
+OK------>cvarName:Sound_AlternateListener
+OK------>s_Cvar_Sound_AlternateListener 0x351D988
+OK------>cvarName:Sound_EnableSoundWhenGameIsInBG
+OK------>s_Cvar_Sound_EnableSoundWhenGameIsInBG 0x351D998
+OK------>cvarName:gxMTDisable
+OK------>s_Cvar_gxMTDisable 0x351EEE0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Render transparent M2 pass in parallel.
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:farclip
+OK------>s_Cvar_farclip 0x351EF18
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Particle density
+OK------>cvarName:
+-- Error --: Failed to rename  -> s_Cvar_
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Ground effect density
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Screen-Space Ambient Occlusion Type
+OK------>cvarName:preloadStreamingDistTerrain
+OK------>cvarName:preloadStreamingDistObject
+OK------>s_Cvar_preloadStreamingDistObject 0x351EF40
+OK------>cvarName:preloadLoadingDistTerrain
+OK------>s_Cvar_preloadLoadingDistTerrain 0x351EF48
+OK------>cvarName:preloadLoadingDistObject
+OK------>s_Cvar_preloadLoadingDistObject 0x351EF50
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Terrain level of detail distance
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Entity level of detail offset
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Maximum job threads for occlusion render
+OK------>cvarName:
+OK------>cvarName:minimapPortalMax
+OK------>s_Cvar_minimapPortalMax 0x351EFB0
+OK------>cvarName:worldViewCullMaxJobs
+OK------>s_Cvar_worldViewCullMaxJobs 0x351F078
+OK------>cvarName:RenderScale
+OK------>cvarName:ResampleQuality
+OK------>cvarName:MSAAQuality
+OK------>cvarName:Enable MSAA for alpha-tested geometry
+OK------>cvarName:specular
+OK------>cvarName:vrsWorldGeo
+OK------>cvarName:vrsParticles
+OK------>cvarName:lodObjectCullSize
+OK------>cvarName:lodObjectCullDist
+OK------>s_Cvar_lodObjectCullDist 0x351DEB8
+OK------>cvarName:lodObjectMinSize
+OK------>s_Cvar_lodObjectMinSize 0x351DEC0
+OK------>cvarName:lodObjectFadeScale
+OK------>s_Cvar_lodObjectFadeScale 0x351DEC8
+OK------>cvarName:
+OK------>cvarName:RAIDsettingsEnabled
+OK------>s_Cvar_RAIDsettingsEnabled 0x351EFA0
+OK------>cvarName:RAIDfarclip
+OK------>s_Cvar_RAIDfarclip 0x351DED8
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Raid Horizon end distance
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Cull unimportant spell effects. -1 means auto based on targetFPS otherwise [0-100], 0 means cull nothing for perf reasons, 100 means cull as much as you can
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:RAIDparticleMTDensity
+OK------>cvarName:RAIDlodObjectCullSize
+OK------>s_Cvar_RAIDlodObjectCullSize 0x351DF28
+OK------>cvarName:RAIDlodObjectCullDist
+OK------>s_Cvar_RAIDlodObjectCullDist 0x351DFA0
+OK------>cvarName:RAIDlodObjectMinSize
+OK------>s_Cvar_RAIDlodObjectMinSize 0x351DFA8
+OK------>cvarName:RAIDlodObjectFadeScale
+OK------>s_Cvar_RAIDlodObjectFadeScale 0x351DFB0
+OK------>cvarName:graphicsTextureResolution
+OK------>cvarName:graphicsSpellDensity
+OK------>s_Cvar_graphicsSpellDensity 0x351EFD8
+OK------>cvarName:graphicsProjectedTextures
+OK------>cvarName:graphicsEnvironmentDetail
+OK------>s_Cvar_graphicsEnvironmentDetail 0x351EFE8
+OK------>cvarName:graphicsGroundClutter
+OK------>s_Cvar_graphicsGroundClutter 0x351EFF0
+OK------>cvarName:graphicsShadowQuality
+OK------>s_Cvar_graphicsShadowQuality 0x351EFF8
+OK------>cvarName:graphicsLiquidDetail
+OK------>s_Cvar_graphicsLiquidDetail 0x351F000
+OK------>cvarName:graphicsParticleDensity
+OK------>s_Cvar_graphicsParticleDensity 0x351F008
+OK------>cvarName:graphicsSSAO
+OK------>s_Cvar_graphicsSSAO 0x351F010
+OK------>cvarName:UI value of the graphics setting
+OK------>cvarName:raidGraphicsTextureResolution
+OK------>s_Cvar_raidGraphicsTextureResolution 0x351F020
+OK------>cvarName:raidGraphicsSpellDensity
+OK------>s_Cvar_raidGraphicsSpellDensity 0x351F028
+OK------>cvarName:raidGraphicsProjectedTextures
+OK------>s_Cvar_raidGraphicsProjectedTextures 0x351F030
+OK------>cvarName:raidGraphicsEnvironmentDetail
+OK------>s_Cvar_raidGraphicsEnvironmentDetail 0x351F038
+OK------>cvarName:raidGraphicsGroundClutter
+OK------>s_Cvar_raidGraphicsGroundClutter 0x351F040
+OK------>cvarName:raidGraphicsShadowQuality
+OK------>s_Cvar_raidGraphicsShadowQuality 0x351F048
+OK------>cvarName:UI value of the raidGraphics setting
+OK------>cvarName:raidGraphicsParticleDensity
+OK------>s_Cvar_raidGraphicsParticleDensity 0x351F058
+OK------>cvarName:raidGraphicsSSAO
+OK------>s_Cvar_raidGraphicsSSAO 0x351F068
+OK------>cvarName:raidGraphicsSunshafts
+OK------>s_Cvar_raidGraphicsSunshafts 0x351F070
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:worldPreloadSort
+OK------>cvarName:worldLoadSort
+OK------>cvarName:worldPreloadNonCritical
+OK------>cvarName:worldPreloadHighResTextures
+OK------>cvarName:worldPreloadNonCriticalTimeout
+OK------>cvarName:weatherDensity
+OK------>cvarName:RAIDweatherDensity
+OK------>cvarName:shadowCull
+OK------>cvarName:shadowScissor
+OK------>s_Cvar_shadowScissor 0x3520EA8
+OK------>cvarName:shadowInstancing
+OK------>s_Cvar_shadowInstancing 0x3520EB0
+OK------>cvarName:ffxGlow
+OK------>s_Cvar_ffxGlow 0x35250E0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:ffxVenari
+OK------>s_Cvar_ffxVenari 0x35250F0
+OK------>cvarName:ffxLingeringVenari
+OK------>s_Cvar_ffxLingeringVenari 0x35250F8
+OK------>cvarName:disableAutoRealmSelect
+OK------>s_Cvar_disableAutoRealmSelect 0x3525950
+OK------>cvarName:initialRealmListTimeout
+OK------>s_Cvar_initialRealmListTimeout 0x3525958
+OK------>cvarName:webChallengeURLTimeout
+OK------>s_Cvar_webChallengeURLTimeout 0x3525960
+OK------>cvarName:Fraction of the screen the cursor must move to start freelook after mouse button goes down
+OK------>cvarName:CursorFreelookCentering
+OK------>s_Cvar_CursorFreelookCentering 0x354DA90
+OK------>cvarName:CursorStickyCentering
+OK------>s_Cvar_CursorStickyCentering 0x354DA98
+OK------>cvarName:CursorCenteredYPos
+OK------>s_Cvar_CursorCenteredYPos 0x354DAA8
+OK------>cvarName:
+OK------>cvarName:GamePadSingleActiveID
+OK------>s_Cvar_GamePadSingleActiveID 0x354DB68
+OK------>cvarName:
+OK------>cvarName:GamePadEmulateAlt
+OK------>s_Cvar_GamePadEmulateAlt 0x354DB78
+OK------>cvarName:GamePadEmulateCtrl
+OK------>s_Cvar_GamePadEmulateCtrl 0x354DAD8
+OK------>cvarName:GamePadEmulateShift
+OK------>s_Cvar_GamePadEmulateShift 0x354DAE0
+OK------>cvarName:GamePad buttons emulating Ctrl/Alt/Shift will be 'tapped' if released withing this time in MS
+OK------>cvarName:GamePadCursorLeftClick
+OK------>cvarName:GamePadCursorRightClick
+OK------>s_Cvar_GamePadCursorRightClick 0x354DB80
+OK------>cvarName:GamePadCursorSpeedStart
+OK------>s_Cvar_GamePadCursorSpeedStart 0x354DB88
+OK------>cvarName:GamePadCursorSpeedAccel
+OK------>s_Cvar_GamePadCursorSpeedAccel 0x354DB90
+OK------>cvarName:GamePadCursorSpeedMax
+OK------>s_Cvar_GamePadCursorSpeedMax 0x354DB98
+OK------>cvarName:GamePadCursorAutoEnable
+OK------>s_Cvar_GamePadCursorAutoEnable 0x354DBA0
+OK------>cvarName:GamePadCursorOnLogin
+OK------>s_Cvar_GamePadCursorOnLogin 0x354DBA8
+OK------>cvarName:When using GamePad, center the cursor
+OK------>cvarName:GamePadCursorCenteredEmulation
+OK------>s_Cvar_GamePadCursorCenteredEmulation 0x354DAF0
+OK------>cvarName:GamePadCursorAutoDisableSticks
+OK------>s_Cvar_GamePadCursorAutoDisableSticks 0x354DBB8
+OK------>cvarName:GamePadOverlapMouseMs
+OK------>s_Cvar_GamePadOverlapMouseMs 0x354DBC0
+OK------>cvarName:GamePadCursorAutoDisableJump
+OK------>s_Cvar_GamePadCursorAutoDisableJump 0x354DAF8
+OK------>cvarName:GamePadCursorPushCamera
+OK------>s_Cvar_GamePadCursorPushCamera 0x354DB00
+OK------>cvarName:GamePadCursorForTargeting
+OK------>s_Cvar_GamePadCursorForTargeting 0x354DBC8
+OK------>cvarName:Enable cursor control with GamePad's touch pad
+OK------>cvarName:GamePadAnalogMovement
+OK------>s_Cvar_GamePadAnalogMovement 0x354DBD0
+OK------>cvarName:GamePadRunThreshold
+OK------>s_Cvar_GamePadRunThreshold 0x354DBD8
+OK------>cvarName:GamePadTurnWithCamera
+OK------>s_Cvar_GamePadTurnWithCamera 0x354DBE0
+OK------>cvarName:GamePadFaceMovementMaxAngle
+OK------>s_Cvar_GamePadFaceMovementMaxAngle 0x354DB10
+OK------>cvarName:GamePadFaceMovementMaxAngleCombat
+OK------>s_Cvar_GamePadFaceMovementMaxAngleCombat 0x354DBE8
+OK------>cvarName:GamePadTankTurnSpeed
+OK------>s_Cvar_GamePadTankTurnSpeed 0x354DBF0
+OK------>cvarName:GamePadCameraYawSpeed
+OK------>s_Cvar_GamePadCameraYawSpeed 0x354DBF8
+OK------>cvarName:GamePadCameraPitchSpeed
+OK------>s_Cvar_GamePadCameraPitchSpeed 0x354DC00
+OK------>cvarName:GamePadCameraLookMaxPitch
+OK------>s_Cvar_GamePadCameraLookMaxPitch 0x354DC08
+OK------>cvarName:GamePadCameraLookMaxYaw
+OK------>s_Cvar_GamePadCameraLookMaxYaw 0x354DC10
+OK------>cvarName:
+OK------>cvarName:GamePadFactionColor
+OK------>s_Cvar_GamePadFactionColor 0x354DC20
+OK------>cvarName:GamePadEnable
+OK------>cvarName:GamePadTouchCursorMoveThreshold
+OK------>cvarName:GamePadTouchCursorAccel
+OK------>s_Cvar_GamePadTouchCursorAccel 0x3550048
+OK------>cvarName:GamePadTouchCursorSpeed
+OK------>s_Cvar_GamePadTouchCursorSpeed 0x3550050
+OK------>cvarName:GamePadTouchTapButtons
+OK------>s_Cvar_GamePadTouchTapButtons 0x3550058
+OK------>cvarName:GamePadTouchTapMaxMs
+OK------>cvarName:GamePadTouchTapOnlyClick
+OK------>s_Cvar_GamePadTouchTapOnlyClick 0x3550068
+OK------>cvarName:Taps for cursor clicks are right clicks instead of left clicks
+OK------>cvarName:agentLogLevel
+OK------>s_Cvar_agentLogLevel 0x3550740
+OK------>cvarName:telemetryTargetPackage
+OK------>s_Cvar_telemetryTargetPackage 0x3550800
+OK------>cvarName:serverAlert
+OK------>cvarName:auroraClientRequestSuffix
+OK------>s_Cvar_auroraClientRequestSuffix 0x3550DE0
+OK------>cvarName:1
+OK------>cvarName:synchronizeSettings
+OK------>s_Cvar_synchronizeSettings 0x3551A60
+OK------>cvarName:forceEnglishNames
+OK------>cvarName:UnitNameOwn
+OK------>cvarName:UnitNameNPC
+OK------>cvarName:UnitNameForceHideMinus
+OK------>cvarName:UnitNamePlayerGuild
+OK------>cvarName:UnitNamePlayerPVPTitle
+OK------>cvarName:UnitNameEnemyPlayerName
+OK------>cvarName:UnitNameEnemyPetName
+OK------>cvarName:UnitNameEnemyGuardianName
+OK------>cvarName:UnitNameEnemyTotemName
+OK------>cvarName:UnitNameEnemyMinionName
+OK------>cvarName:UnitNameFriendlyPlayerName
+OK------>cvarName:UnitNameFriendlyPetName
+OK------>cvarName:UnitNameFriendlyGuardianName
+OK------>cvarName:UnitNameFriendlyTotemName
+OK------>cvarName:UnitNameFriendlyMinionName
+OK------>cvarName:UnitNameNonCombatCreatureName
+OK------>cvarName:UnitNameGuildTitle
+OK------>cvarName:WorldTextStartPosRandomness
+OK------>cvarName:WorldTextScreenY
+OK------>s_Cvar_WorldTextScreenY 0x359A5A0
+OK------>cvarName:WorldTextCritScreenY
+OK------>s_Cvar_WorldTextCritScreenY 0x359A5D0
+OK------>cvarName:WorldTextRandomXY
+OK------>s_Cvar_WorldTextRandomXY 0x359A5D8
+OK------>cvarName:WorldTextRandomZMin
+OK------>s_Cvar_WorldTextRandomZMin 0x359A5E0
+OK------>cvarName:WorldTextRandomZMax
+OK------>s_Cvar_WorldTextRandomZMax 0x359A5E8
+OK------>cvarName:WorldTextNonRandomZ
+OK------>s_Cvar_WorldTextNonRandomZ 0x359A5F0
+OK------>cvarName:0.5
+OK------>cvarName:WorldTextRampPow
+OK------>s_Cvar_WorldTextRampPow 0x359A5A8
+OK------>cvarName:WorldTextRampPowCrit
+OK------>s_Cvar_WorldTextRampPowCrit 0x359A5B0
+OK------>cvarName:WorldTextRampDuration
+OK------>s_Cvar_WorldTextRampDuration 0x359A5B8
+OK------>cvarName:WorldTextScale
+OK------>s_Cvar_WorldTextScale 0x359A5C0
+OK------>cvarName:WorldTextMinSize
+OK------>s_Cvar_WorldTextMinSize 0x359A5C8
+OK------>cvarName:WorldTextMinAlpha
+OK------>s_Cvar_WorldTextMinAlpha 0x359A600
+OK------>cvarName:WeaponTrailUseGPUStrip
+OK------>s_Cvar_WeaponTrailUseGPUStrip 0x359AF40
+OK------>cvarName:ClientCastDebug
+OK------>cvarName:PreemptiveCastEnable
+OK------>s_Cvar_PreemptiveCastEnable 0x35AD818
+OK------>cvarName:ObjectSelectionCircle
+OK------>s_Cvar_ObjectSelectionCircle 0x35B9900
+OK------>cvarName:outlineMouseOverFadeDuration
+OK------>s_Cvar_outlineMouseOverFadeDuration 0x35B9900
+OK------>cvarName:outlineSoftInteractFadeDuration
+OK------>s_Cvar_outlineSoftInteractFadeDuration 0x35BA0B8
+OK------>cvarName:outlineSelectionFadeDuration
+OK------>s_Cvar_outlineSelectionFadeDuration 0x35BA1F8
+OK------>cvarName:showfootprintparticles
+OK------>cvarName:pathSmoothing
+OK------>s_Cvar_pathSmoothing 0x35BA780
+OK------>cvarName:flightAngleLookAhead
+OK------>s_Cvar_flightAngleLookAhead 0x35BA788
+OK------>cvarName:cloakFixEnabled
+OK------>s_Cvar_cloakFixEnabled 0x35BA790
+OK------>cvarName:DebugTorsoTwist
+OK------>s_Cvar_DebugTorsoTwist 0x35BA798
+OK------>cvarName:
+OK------>cvarName:smoothUnitPhasing
+OK------>cvarName:smoothUnitPhasingDistThreshold
+OK------>s_Cvar_smoothUnitPhasingDistThreshold 0x35CC528
+OK------>cvarName:smoothUnitPhasingUnseenPurgatoryTimeMs
+OK------>s_Cvar_smoothUnitPhasingUnseenPurgatoryTimeMs 0x35CC530
+OK------>cvarName:smoothUnitPhasingDestroyedPurgatoryTimeMs
+OK------>s_Cvar_smoothUnitPhasingDestroyedPurgatoryTimeMs 0x35CC538
+OK------>cvarName:smoothUnitPhasingActorPurgatoryTimeMs
+OK------>s_Cvar_smoothUnitPhasingActorPurgatoryTimeMs 0x35CC540
+OK------>cvarName:smoothUnitPhasingEnableAlive
+OK------>s_Cvar_smoothUnitPhasingEnableAlive 0x35CC548
+OK------>cvarName:smoothUnitPhasingAliveTimeoutMs
+OK------>s_Cvar_smoothUnitPhasingAliveTimeoutMs 0x35CC550
+OK------>cvarName:Extra time to wait before releasing a vehicle, after it has smooth phased. This allows it's passengers to smooth phase as well.
+OK------>cvarName:ImpactModelCollisionMelee
+OK------>cvarName:ImpactModelCollisionRanged
+OK------>s_Cvar_ImpactModelCollisionRanged 0x35DD260
+OK------>cvarName:ImpactModelCollisionMissile
+OK------>s_Cvar_ImpactModelCollisionMissile 0x35DD268
+OK------>cvarName:spellClutter
+OK------>cvarName:The number of yards before the priority is doubled (min 1.0)
+OK------>cvarName:The number of yards before the priority is doubled (min 1.0) in a raid
+OK------>cvarName:Increases number of effects on "interesting" targets multiplicatively (min 0.1)
+OK------>cvarName:Starting target scalar value (min 0.1)
+OK------>cvarName:Scales the targetScalar by how different the party size is from this (min 1)
+OK------>cvarName:Scalar we apply to the hostile creature spells (min 0.001)
+OK------>cvarName:Min spells on a target before we apply clutter logic (min 0)
+OK------>cvarName:Min weaponTrails in the scene before we apply clutter logic (min 0)
+OK------>cvarName:bodyQuota
+OK------>s_Cvar_bodyQuota 0x35DDF10
+OK------>cvarName:unitClutter
+OK------>cvarName:unitClutterInstancesOnly
+OK------>cvarName:unitClutterPlayerThreshold
+OK------>cvarName:
+OK------>cvarName:scriptProfile
+OK------>s_Cvar_scriptProfile 0x3649DA0
+OK------>cvarName:KioskCanSessionExpire
+OK------>cvarName:KioskLobbyKickSeconds
+OK------>cvarName:KioskCharacterTemplateSet
+OK------>cvarName:deselectOnClick
+OK------>s_Cvar_deselectOnClick 0x3649DB8
+OK------>cvarName:Toggles auto-move to interact target
+OK------>cvarName:autoStand
+OK------>s_Cvar_autoStand 0x3649DC0
+OK------>cvarName:autoDismount
+OK------>s_Cvar_autoDismount 0x3649DC8
+OK------>cvarName:autoDismountFlying
+OK------>s_Cvar_autoDismountFlying 0x3649DD0
+OK------>cvarName:autoUnshift
+OK------>s_Cvar_autoUnshift 0x3649DD8
+OK------>cvarName:autoClearAFK
+OK------>s_Cvar_autoClearAFK 0x3649DE0
+OK------>cvarName:blockTrades
+OK------>s_Cvar_blockTrades 0x3649DE8
+OK------>cvarName:blockChannelInvites
+OK------>s_Cvar_blockChannelInvites 0x3649DF8
+OK------>cvarName:Whether the loot window should open under the mouse
+OK------>cvarName:autoLootDefault
+OK------>s_Cvar_autoLootDefault 0x3649E00
+OK------>cvarName:autoLootRate
+OK------>s_Cvar_autoLootRate 0x3649E08
+OK------>cvarName:autoOpenLootHistory
+OK------>s_Cvar_autoOpenLootHistory 0x3649CA0
+OK------>cvarName:Always show item comparison tooltips
+OK------>cvarName:Toggles using commas in large numbers
+OK------>cvarName:superTrackerDist
+OK------>s_Cvar_superTrackerDist 0x364A0F0
+OK------>cvarName:spellBookSort
+OK------>s_Cvar_spellBookSort 0x364A0F8
+OK------>cvarName:trackerSorting
+OK------>s_Cvar_trackerSorting 0x364A100
+OK------>cvarName:trackerFilter
+OK------>s_Cvar_trackerFilter 0x364A0B0
+OK------>cvarName:Test CVar for interacting with NPC's on left click
+OK------>cvarName:interactQuestItems
+OK------>s_Cvar_interactQuestItems 0x3649E10
+OK------>cvarName:assistAttack
+OK------>s_Cvar_assistAttack 0x3649CA8
+OK------>cvarName:autoSelfCast
+OK------>s_Cvar_autoSelfCast 0x3649E18
+OK------>cvarName:stopAutoAttackOnTargetChange
+OK------>s_Cvar_stopAutoAttackOnTargetChange 0x3649E20
+OK------>cvarName:showTargetOfTarget
+OK------>s_Cvar_showTargetOfTarget 0x3649E28
+OK------>cvarName:showTargetCastbar
+OK------>s_Cvar_showTargetCastbar 0x3649E30
+OK------>cvarName:showVKeyCastbar
+OK------>s_Cvar_showVKeyCastbar 0x3649E38
+OK------>cvarName:showVKeyCastbarOnlyOnTarget
+OK------>s_Cvar_showVKeyCastbarOnlyOnTarget 0x3649E40
+OK------>cvarName:showVKeyCastbarSpellName
+OK------>s_Cvar_showVKeyCastbarSpellName 0x3649E48
+OK------>cvarName:Do not flash your screen red when you are low on health.
+OK------>cvarName:Sets how early you can pre-activate/queue a spell/ability. (In Milliseconds)
+OK------>cvarName:rotateMinimap
+OK------>cvarName:minimapZoom
+OK------>s_Cvar_minimapZoom 0x3649E68
+OK------>cvarName:minimapInsideZoom
+OK------>s_Cvar_minimapInsideZoom 0x3649E70
+OK------>cvarName:minimapAltitudeHintMode
+OK------>s_Cvar_minimapAltitudeHintMode 0x3649E78
+OK------>cvarName:showMinimapClock
+OK------>s_Cvar_showMinimapClock 0x3649E80
+OK------>cvarName:scriptErrors
+OK------>cvarName:scriptWarnings
+OK------>s_Cvar_scriptWarnings 0x3649DA8
+OK------>cvarName:Whether to show a red flash while you are in combat with the world map up
+OK------>cvarName:displayFreeBagSlots
+OK------>s_Cvar_displayFreeBagSlots 0x3649E88
+OK------>cvarName:displayWorldPVPObjectives
+OK------>s_Cvar_displayWorldPVPObjectives 0x3649E90
+OK------>cvarName:
+OK------>cvarName:speechToText
+OK------>s_Cvar_speechToText 0x3649CB0
+OK------>cvarName:textToSpeech
+OK------>s_Cvar_textToSpeech 0x3649D90
+OK------>cvarName:colorblindMode
+OK------>s_Cvar_colorblindMode 0x3649D98
+OK------>cvarName:enableMovePad
+OK------>cvarName:streamStatusMessage
+OK------>cvarName:emphasizeMySpellEffects
+OK------>cvarName:allowCompareWithToggle
+OK------>s_Cvar_allowCompareWithToggle 0x3649EA0
+OK------>cvarName:countdownForCooldowns
+OK------>cvarName:showHonorAsExperience
+OK------>s_Cvar_showHonorAsExperience 0x364A158
+OK------>cvarName:autoQuestWatch
+OK------>cvarName:autoQuestProgress
+OK------>cvarName:autoQuestPopUps
+OK------>cvarName:questLogOpen
+OK------>cvarName:instantQuestText
+OK------>cvarName:advancedWatchFrame
+OK------>cvarName:watchFrameIgnoreCursor
+OK------>cvarName:watchFrameBaseAlpha
+OK------>cvarName:watchFrameState
+OK------>cvarName:showQuestObjectivesOnMap
+OK------>cvarName:trackedQuests
+OK------>cvarName:hardTrackedQuests
+OK------>cvarName:trackedAchievements
+OK------>cvarName:flaggedTutorials
+OK------>cvarName:actionedAdventureJournalEntries
+OK------>cvarName:mapFade
+OK------>cvarName:trackQuestSorting
+OK------>cvarName:watchFrameWidth
+OK------>s_Cvar_watchFrameWidth 0x364A0A0
+OK------>cvarName:mapAnimMinAlpha
+OK------>cvarName:mapAnimDuration
+OK------>cvarName:mapAnimStartDelay
+OK------>cvarName:hideOutdoorWorldState
+OK------>cvarName:profanityFilter
+OK------>cvarName:spamFilter
+OK------>s_Cvar_spamFilter 0x3649EA8
+OK------>cvarName:showLootSpam
+OK------>s_Cvar_showLootSpam 0x3649EB0
+OK------>cvarName:chatBubbles
+OK------>s_Cvar_chatBubbles 0x3649EB8
+OK------>cvarName:Whether to show in-game chat bubbles for party chat
+OK------>cvarName:removeChatDelay
+OK------>s_Cvar_removeChatDelay 0x3649EC8
+OK------>cvarName:communitiesShowOffline
+OK------>s_Cvar_communitiesShowOffline 0x3649ED0
+OK------>cvarName:guildShowOffline
+OK------>cvarName:guildMemberNotify
+OK------>s_Cvar_guildMemberNotify 0x3649ED8
+OK------>cvarName:guildRewardsUsable
+OK------>s_Cvar_guildRewardsUsable 0x3649EE0
+OK------>cvarName:guildRewardsCategory
+OK------>s_Cvar_guildRewardsCategory 0x3649EE8
+OK------>cvarName:lfgAutoFill
+OK------>s_Cvar_lfgAutoFill 0x3649EF0
+OK------>cvarName:lfgAutoJoin
+OK------>cvarName:friendsViewButtons
+OK------>cvarName:friendsSmallView
+OK------>cvarName:chatStyle
+OK------>cvarName:wholeChatWindowClickable
+OK------>cvarName:whisperMode
+OK------>cvarName:showTimestamps
+OK------>cvarName:chatMouseScroll
+OK------>cvarName:enableTwitter
+OK------>cvarName:twitterGetConfigTime
+OK------>s_Cvar_twitterGetConfigTime 0x364A170
+OK------>cvarName:twitterShortUrlLength
+OK------>s_Cvar_twitterShortUrlLength 0x364A190
+OK------>cvarName:twitterShortUrlLengthHttps
+OK------>s_Cvar_twitterShortUrlLengthHttps 0x364A178
+OK------>cvarName:twitterCharactersPerMedia
+OK------>s_Cvar_twitterCharactersPerMedia 0x364A180
+OK------>cvarName:showBuilderFeedback
+OK------>s_Cvar_showBuilderFeedback 0x364A188
+OK------>cvarName:showSpenderFeedback
+OK------>cvarName:Highlight your character. 0 = circle, 1 = circle & outline, 2 = outline
+OK------>cvarName:findYourselfInRaidOnlyInCombat
+OK------>s_Cvar_findYourselfInRaidOnlyInCombat 0x3649D20
+OK------>cvarName:findYourselfInBGOnlyInCombat
+OK------>s_Cvar_findYourselfInBGOnlyInCombat 0x3649D28
+OK------>cvarName:findYourselfAnywhereOnlyInCombat
+OK------>s_Cvar_findYourselfAnywhereOnlyInCombat 0x3649D30
+OK------>cvarName:findYourselfInRaid
+OK------>s_Cvar_findYourselfInRaid 0x3649D38
+OK------>cvarName:findYourselfInBG
+OK------>s_Cvar_findYourselfInBG 0x3649D40
+OK------>cvarName:findYourselfAnywhere
+OK------>s_Cvar_findYourselfAnywhere 0x3649D48
+OK------>cvarName:comboPointLocation
+OK------>s_Cvar_comboPointLocation 0x3649D50
+OK------>cvarName:equipmentManager
+OK------>cvarName:nameplateOtherAtBase
+OK------>cvarName:nameplateTargetRadialPosition
+OK------>s_Cvar_nameplateTargetRadialPosition 0x3649D58
+OK------>cvarName:lockActionBars
+OK------>s_Cvar_lockActionBars 0x3649D60
+OK------>cvarName:alwaysShowActionBars
+OK------>cvarName:secureAbilityToggle
+OK------>cvarName:multiBarRightVerticalLayout
+OK------>s_Cvar_multiBarRightVerticalLayout 0x3649EF8
+OK------>cvarName:Display damage numbers over hostile creatures when damaged
+OK------>cvarName:floatingCombatTextCombatDamageStyle
+OK------>s_Cvar_floatingCombatTextCombatDamageStyle 0x3649F00
+OK------>cvarName:floatingCombatTextCombatDamageAllAutos
+OK------>s_Cvar_floatingCombatTextCombatDamageAllAutos 0x3649CB8
+OK------>cvarName:floatingCombatTextCombatDamageDirectionalOffset
+OK------>s_Cvar_floatingCombatTextCombatDamageDirectionalOffset 0x3649F08
+OK------>cvarName:floatingCombatTextCombatDamageDirectionalScale
+OK------>s_Cvar_floatingCombatTextCombatDamageDirectionalScale 0x3649F10
+OK------>cvarName:floatingCombatTextCombatLogPeriodicSpells
+OK------>s_Cvar_floatingCombatTextCombatLogPeriodicSpells 0x3649F18
+OK------>cvarName:floatingCombatTextPetMeleeDamage
+OK------>s_Cvar_floatingCombatTextPetMeleeDamage 0x3649F20
+OK------>cvarName:floatingCombatTextPetSpellDamage
+OK------>s_Cvar_floatingCombatTextPetSpellDamage 0x3649F28
+OK------>cvarName:floatingCombatTextCombatHealing
+OK------>cvarName:enableFloatingCombatText
+OK------>s_Cvar_enableFloatingCombatText 0x3649F38
+OK------>cvarName:floatingCombatTextFloatMode
+OK------>cvarName:enablePetBattleFloatingCombatText
+OK------>cvarName:floatingCombatTextCombatState
+OK------>cvarName:floatingCombatTextDodgeParryMiss
+OK------>cvarName:floatingCombatTextDamageReduction
+OK------>cvarName:0
+OK------>cvarName:floatingCombatTextReactives
+OK------>cvarName:floatingCombatTextFriendlyHealers
+OK------>cvarName:floatingCombatTextComboPoints
+OK------>cvarName:floatingCombatTextLowManaHealth
+OK------>cvarName:floatingCombatTextEnergyGains
+OK------>cvarName:floatingCombatTextPeriodicEnergyGains
+OK------>cvarName:floatingCombatTextHonorGains
+OK------>cvarName:0
+OK------>cvarName:floatingCombatTextAuraFade
+OK------>cvarName:floatingCombatTextAllSpellMechanics
+OK------>cvarName:floatingCombatTextSpellMechanics
+OK------>cvarName:floatingCombatTextSpellMechanicsOther
+OK------>cvarName:xpBarText
+OK------>cvarName:statusText
+OK------>cvarName:statusTextDisplay
+OK------>cvarName:Show a background behind party members
+OK------>cvarName:partyBackgroundOpacity
+OK------>cvarName:showPartyPets
+OK------>cvarName:showArenaEnemyFrames
+OK------>cvarName:showArenaEnemyCastbar
+OK------>cvarName:showArenaEnemyPets
+OK------>cvarName:fullSizeFocusFrame
+OK------>cvarName:useCompactPartyFrames
+OK------>cvarName:Whether to show buff durations
+OK------>cvarName:showDispelDebuffs
+OK------>s_Cvar_showDispelDebuffs 0x3649E60
+OK------>cvarName:showCastableBuffs
+OK------>cvarName:consolidateBuffs
+OK------>cvarName:noBuffDebuffFilterOnTarget
+OK------>cvarName:showToastOnline
+OK------>cvarName:showToastOffline
+OK------>s_Cvar_showToastOffline 0x364A0C0
+OK------>cvarName:showToastBroadcast
+OK------>s_Cvar_showToastBroadcast 0x364A0C8
+OK------>cvarName:Whether to show Battle.net message for friend requests
+OK------>cvarName:showToastConversation
+OK------>s_Cvar_showToastConversation 0x364A0B8
+OK------>cvarName:showToastClubInvitation
+OK------>s_Cvar_showToastClubInvitation 0x364A0D8
+OK------>cvarName:alwaysShowBlizzardGroupsTab
+OK------>s_Cvar_alwaysShowBlizzardGroupsTab 0x3649CF0
+OK------>cvarName:showToastWindow
+OK------>s_Cvar_showToastWindow 0x3649CF8
+OK------>cvarName:toastDuration
+OK------>cvarName:UberTooltips
+OK------>cvarName:showTutorials
+OK------>cvarName:ShowAllSpellRanks
+OK------>s_Cvar_ShowAllSpellRanks 0x364A0E0
+OK------>cvarName:showNewbieTips
+OK------>s_Cvar_showNewbieTips 0x364A0E8
+OK------>cvarName:raidOptionSortMode
+OK------>cvarName:raidOptionKeepGroupsTogether
+OK------>cvarName:raidOptionLocked
+OK------>cvarName:raidOptionDisplayPets
+OK------>cvarName:raidOptionDisplayMainTankAndAssist
+OK------>cvarName:raidOptionIsShown
+OK------>cvarName:raidFramesDisplayOnlyDispellableDebuffs
+OK------>cvarName:raidFramesDisplayPowerBars
+OK------>cvarName:raidFramesPosition
+OK------>cvarName:raidFramesHeight
+OK------>cvarName:raidFramesWidth
+OK------>cvarName:raidFramesHealthText
+OK------>cvarName:raidOptionShowBorders
+OK------>cvarName:raidFramesDisplayClassColor
+OK------>cvarName:calendarShowHolidays
+OK------>cvarName:calendarShowWeeklyHolidays
+OK------>s_Cvar_calendarShowWeeklyHolidays 0x3649CC0
+OK------>cvarName:calendarShowDarkmoon
+OK------>s_Cvar_calendarShowDarkmoon 0x3649F48
+OK------>cvarName:calendarShowBattlegrounds
+OK------>s_Cvar_calendarShowBattlegrounds 0x3649F50
+OK------>cvarName:calendarShowLockouts
+OK------>s_Cvar_calendarShowLockouts 0x3649F58
+OK------>cvarName:calendarShowResets
+OK------>s_Cvar_calendarShowResets 0x3649F60
+OK------>cvarName:nameplateShowEnemies
+OK------>s_Cvar_nameplateShowEnemies 0x3649F88
+OK------>cvarName:nameplateShowEnemyMinions
+OK------>cvarName:nameplateShowEnemyPets
+OK------>cvarName:nameplateShowEnemyGuardians
+OK------>cvarName:nameplateShowEnemyTotems
+OK------>cvarName:nameplateShowEnemyMinus
+OK------>cvarName:nameplateShowFriends
+OK------>cvarName:nameplateShowFriendlyNPCs
+OK------>cvarName:nameplateShowFriendlyMinions
+OK------>cvarName:nameplateShowFriendlyPets
+OK------>cvarName:nameplateShowFriendlyGuardians
+OK------>cvarName:nameplateShowFriendlyTotems
+OK------>cvarName:nameplateShowAll
+OK------>cvarName:nameplateShowDebuffsOnFriendly
+OK------>s_Cvar_nameplateShowDebuffsOnFriendly 0x3649FF0
+OK------>cvarName:enablePVPNotifyAFK
+OK------>s_Cvar_enablePVPNotifyAFK 0x364A000
+OK------>cvarName:Which trainer services to show
+OK------>cvarName:showBattlefieldMinimap
+OK------>s_Cvar_showBattlefieldMinimap 0x364A008
+OK------>cvarName:playerStatLeftDropdown
+OK------>cvarName:playerStatRightDropdown
+OK------>cvarName:talentFrameShown
+OK------>cvarName:talentPointsSpent
+OK------>cvarName:auctionDisplayOnCharacter
+OK------>s_Cvar_auctionDisplayOnCharacter 0x3649FF8
+OK------>cvarName:auctionSortByUnitPrice
+OK------>cvarName:Sort auction items by buyout price instead of current bid price
+OK------>cvarName:addFriendInfoShown
+OK------>cvarName:pendingInviteInfoShown
+OK------>cvarName:friendInvitesCollapsed
+OK------>cvarName:guildRosterView
+OK------>cvarName:showKeyring
+OK------>cvarName:timeMgrUseMilitaryTime
+OK------>cvarName:timeMgrUseLocalTime
+OK------>cvarName:timeMgrAlarmTime
+OK------>cvarName:timeMgrAlarmMessage
+OK------>cvarName:timeMgrAlarmEnabled
+OK------>cvarName:combatLogRetentionTime
+OK------>cvarName:combatLogUniqueFilename
+OK------>s_Cvar_combatLogUniqueFilename 0x364A010
+OK------>cvarName:currencyTokensUnused1
+OK------>s_Cvar_currencyTokensUnused1 0x364A018
+OK------>cvarName:currencyTokensUnused2
+OK------>s_Cvar_currencyTokensUnused2 0x364A020
+OK------>cvarName:currencyTokensBackpack1
+OK------>s_Cvar_currencyTokensBackpack1 0x364A028
+OK------>cvarName:currencyTokensBackpack2
+OK------>s_Cvar_currencyTokensBackpack2 0x364A030
+OK------>cvarName:currencyCategoriesCollapsed
+OK------>s_Cvar_currencyCategoriesCollapsed 0x364A038
+OK------>cvarName:showTokenFrame
+OK------>cvarName:showTokenFrameHonor
+OK------>cvarName:predictedHealth
+OK------>s_Cvar_predictedHealth 0x364A040
+OK------>cvarName:Whether or not to show threat warning UI (0 = off, 1 = in dungeons, 2 = in party/raid, 3 = always)
+OK------>cvarName:threatWorldText
+OK------>s_Cvar_threatWorldText 0x364A048
+OK------>cvarName:threatShowNumeric
+OK------>s_Cvar_threatShowNumeric 0x364A050
+OK------>cvarName:threatPlaySounds
+OK------>s_Cvar_threatPlaySounds 0x364A058
+OK------>cvarName:previewTalents
+OK------>cvarName:lfgSelectedRoles
+OK------>s_Cvar_lfgSelectedRoles 0x3649CE8
+OK------>cvarName:lfgNewPlayerFriendly
+OK------>s_Cvar_lfgNewPlayerFriendly 0x364A070
+OK------>cvarName:Stores which LFD headers are collapsed.
+OK------>cvarName:lfdSelectedDungeons
+OK------>s_Cvar_lfdSelectedDungeons 0x364A078
+OK------>cvarName:pvpSelectedRoles
+OK------>s_Cvar_pvpSelectedRoles 0x364A080
+OK------>cvarName:lfgListSearchLanguages
+OK------>s_Cvar_lfgListSearchLanguages 0x364A088
+OK------>cvarName:lastTalkedToGM
+OK------>s_Cvar_lastTalkedToGM 0x364A090
+OK------>cvarName:
+OK------>cvarName:autoCompleteWhenEditingFromCenter
+OK------>cvarName:autoCompleteUseContext
+OK------>cvarName:colorChatNamesByClass
+OK------>cvarName:autoFilledMultiCastSlots
+OK------>cvarName:minimapTrackedInfov2
+OK------>s_Cvar_minimapTrackedInfov2 0x364A0A8
+OK------>cvarName:minimapShapeshiftTracking
+OK------>cvarName:showTamers
+OK------>cvarName:primaryProfessionsFilter
+OK------>cvarName:secondaryProfessionsFilter
+OK------>cvarName:worldQuestFilterGold
+OK------>cvarName:worldQuestFilterResources
+OK------>cvarName:worldQuestFilterArtifactPower
+OK------>cvarName:worldQuestFilterProfessionMaterials
+OK------>cvarName:worldQuestFilterEquipment
+OK------>cvarName:digSites
+OK------>cvarName:miniDressUpFrame
+OK------>cvarName:miniCommunitiesFrame
+OK------>cvarName:reputationsCollapsed
+OK------>cvarName:dontShowEquipmentSetsOnItems
+OK------>cvarName:guildNewsFilter
+OK------>cvarName:ActionButtonUseKeyDown
+OK------>cvarName:lfGuildSettings
+OK------>cvarName:lfGuildComment
+OK------>cvarName:activeCUFProfile
+OK------>cvarName:lastVoidStorageTutorial
+OK------>cvarName:lastGarrisonMissionTutorial
+OK------>cvarName:Stores whether the player has accepted the first mission tutorial
+OK------>cvarName:shipyardMissionTutorialBlockade
+OK------>cvarName:shipyardMissionTutorialAreaBuff
+OK------>cvarName:orderHallMissionTutorial
+OK------>cvarName:minimapShowQuestBlobs
+OK------>cvarName:minimapShowArchBlobs
+OK------>cvarName:closedInfoFrames
+OK------>cvarName:dangerousShipyardMissionWarningAlreadyShown
+OK------>cvarName:Bitfield for which collected filters are applied in the pet journal
+OK------>cvarName:petJournalTypeFilters
+OK------>s_Cvar_petJournalTypeFilters 0x364A108
+OK------>cvarName:petJournalSourceFilters
+OK------>s_Cvar_petJournalSourceFilters 0x364A110
+OK------>cvarName:petJournalSort
+OK------>s_Cvar_petJournalSort 0x364A118
+OK------>cvarName:mountJournalGeneralFilters
+OK------>s_Cvar_mountJournalGeneralFilters 0x364A120
+OK------>cvarName:mountJournalSourcesFilter
+OK------>s_Cvar_mountJournalSourcesFilter 0x364A128
+OK------>cvarName:toyBoxCollectedFilters
+OK------>s_Cvar_toyBoxCollectedFilters 0x364A130
+OK------>cvarName:Bitfield for which source filters are applied in the toybox
+OK------>cvarName:toyBoxExpansionFilters
+OK------>cvarName:heirloomCollectedFilters
+OK------>cvarName:heirloomSourceFilters
+OK------>s_Cvar_heirloomSourceFilters 0x364A138
+OK------>cvarName:transmogrifySourceFilters
+OK------>s_Cvar_transmogrifySourceFilters 0x364A140
+OK------>cvarName:wardrobeSourceFilters
+OK------>s_Cvar_wardrobeSourceFilters 0x364A148
+OK------>cvarName:wardrobeSetsFilters
+OK------>s_Cvar_wardrobeSetsFilters 0x364A150
+OK------>cvarName:transmogrifyShowCollected
+OK------>cvarName:Whether to show uncollected transmogs in the at the transmogrifier
+OK------>cvarName:wardrobeShowCollected
+OK------>cvarName:wardrobeShowUncollected
+OK------>cvarName:missingTransmogSourceInItemTooltips
+OK------>cvarName:lastTransmogOutfitIDSpec1
+OK------>cvarName:lastTransmogOutfitIDSpec2
+OK------>cvarName:lastTransmogOutfitIDSpec3
+OK------>cvarName:lastTransmogOutfitIDSpec4
+OK------>cvarName:itemModifiedAppearanceID of the latest collected source belonging to a set
+OK------>cvarName:petJournalTab
+OK------>cvarName:EJLootClass
+OK------>cvarName:EJLootSpec
+OK------>cvarName:EJRaidDifficulty
+OK------>cvarName:EJDungeonDifficulty
+OK------>cvarName:transmogCurrentSpecOnly
+OK------>cvarName:displayedRAFFriendInfo
+OK------>cvarName:Range to stop shoulder/weapon emissions during combat
+OK------>cvarName:NonEmitterCombatRange
+OK------>s_Cvar_NonEmitterCombatRange 0x364A160
+OK------>cvarName:splashScreenNormal
+OK------>cvarName:splashScreenBoost
+OK------>cvarName:seenAsiaCharacterUpgradePopup
+OK------>cvarName:showSpectatorTeamCircles
+OK------>s_Cvar_showSpectatorTeamCircles 0x3649D10
+OK------>cvarName:flashErrorMessageRepeats
+OK------>s_Cvar_flashErrorMessageRepeats 0x3649D18
+OK------>cvarName:outdoorMinAltitudeDistance
+OK------>cvarName:garrisonCompleteTalent
+OK------>s_Cvar_garrisonCompleteTalent 0x364A198
+OK------>cvarName:
+OK------>cvarName:AllowDangerousScripts
+OK------>s_Cvar_AllowDangerousScripts 0x364A1A8
+OK------>cvarName:EnableBlinkApplicationIcon
+OK------>s_Cvar_EnableBlinkApplicationIcon 0x364A1B0
+OK------>cvarName:lastSelectedClubId
+OK------>s_Cvar_lastSelectedClubId 0x364A1B8
+OK------>cvarName:fstack_enabled
+OK------>s_Cvar_fstack_enabled 0x3649D70
+OK------>cvarName:fstack_showhidden
+OK------>s_Cvar_fstack_showhidden 0x3649D70
+OK------>cvarName:fstack_showregions
+OK------>s_Cvar_fstack_showregions 0x364A1C0
+OK------>cvarName:fstack_showanchors
+OK------>s_Cvar_fstack_showanchors 0x364A1C8
+OK------>cvarName:fstack_showhighlight
+OK------>s_Cvar_fstack_showhighlight 0x3649D78
+OK------>cvarName:fstack_preferParentKeys
+OK------>s_Cvar_fstack_preferParentKeys 0x3649D78
+OK------>cvarName:fstack_showRaisedFrameLevels
+OK------>s_Cvar_fstack_showRaisedFrameLevels 0x3649D80
+OK------>cvarName:uieditor_enabled
+OK------>cvarName:commentatorLossOfControlTextUnitFrame
+OK------>s_Cvar_commentatorLossOfControlTextUnitFrame 0x3649D88
+OK------>cvarName:commentatorLossOfControlTextNameplate
+OK------>cvarName:commentatorLossOfControlIconUnitFrame
+OK------>cvarName:autoRangedCombat
+OK------>s_Cvar_autoRangedCombat 0x3649DF0
+OK------>cvarName:uiScale
+OK------>s_Cvar_uiScale 0x3649F80
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:useHighResolutionUITextures
+OK------>s_Cvar_useHighResolutionUITextures 0x3649CC8
+OK------>cvarName:chatClassColorOverride
+OK------>s_Cvar_chatClassColorOverride 0x3649F78
+OK------>cvarName:seenRegionalChatDisabled
+OK------>cvarName:
+OK------>cvarName:incompleteQuestPriorityThresholdDelta
+OK------>s_Cvar_incompleteQuestPriorityThresholdDelta 0x3666058
+OK------>cvarName:TTSUseCharacterSettings
+OK------>s_Cvar_TTSUseCharacterSettings 0x3670560
+OK------>cvarName:nameplateMaxDistance
+OK------>s_Cvar_nameplateMaxDistance 0x36718B0
+OK------>cvarName:
+OK------>cvarName:nameplateTargetBehindMaxDistance
+OK------>s_Cvar_nameplateTargetBehindMaxDistance 0x36718B8
+OK------>cvarName:nameplateMotion
+OK------>s_Cvar_nameplateMotion 0x36718C0
+OK------>cvarName:nameplateMotionSpeed
+OK------>s_Cvar_nameplateMotionSpeed 0x36718C8
+OK------>cvarName:nameplateOverlapH
+OK------>s_Cvar_nameplateOverlapH 0x36718D0
+OK------>cvarName:nameplateOverlapV
+OK------>s_Cvar_nameplateOverlapV 0x36718D8
+OK------>cvarName:Applies global scaling to non-self nameplates, this is applied AFTER selected, min, and max scale.
+OK------>cvarName:nameplateMinScale
+OK------>s_Cvar_nameplateMinScale 0x36718E8
+OK------>cvarName:nameplateMaxScale
+OK------>s_Cvar_nameplateMaxScale 0x36718F8
+OK------>cvarName:nameplateLargerScale
+OK------>s_Cvar_nameplateLargerScale 0x3671900
+OK------>cvarName:nameplateMinScaleDistance
+OK------>s_Cvar_nameplateMinScaleDistance 0x36718F0
+OK------>cvarName:nameplateMaxScaleDistance
+OK------>s_Cvar_nameplateMaxScaleDistance 0x3671908
+OK------>cvarName:nameplateMinAlpha
+OK------>s_Cvar_nameplateMinAlpha 0x3671910
+OK------>cvarName:The max alpha of nameplates.
+OK------>cvarName:nameplateOccludedAlphaMult
+OK------>s_Cvar_nameplateOccludedAlphaMult 0x3671920
+OK------>cvarName:nameplateMinAlphaDistance
+OK------>s_Cvar_nameplateMinAlphaDistance 0x3671928
+OK------>cvarName:nameplateMaxAlphaDistance
+OK------>s_Cvar_nameplateMaxAlphaDistance 0x3671930
+OK------>cvarName:nameplateSelectedScale
+OK------>s_Cvar_nameplateSelectedScale 0x3671938
+OK------>cvarName:nameplateSelectedAlpha
+OK------>s_Cvar_nameplateSelectedAlpha 0x3671940
+OK------>cvarName:nameplateNotSelectedAlpha
+OK------>s_Cvar_nameplateNotSelectedAlpha 0x3671948
+OK------>cvarName:clampTargetNameplateToScreen
+OK------>s_Cvar_clampTargetNameplateToScreen 0x3671950
+OK------>cvarName:nameplateSelfScale
+OK------>s_Cvar_nameplateSelfScale 0x3671958
+OK------>cvarName:nameplateSelfAlpha
+OK------>s_Cvar_nameplateSelfAlpha 0x3671960
+OK------>cvarName:nameplateSelfBottomInset
+OK------>s_Cvar_nameplateSelfBottomInset 0x3671968
+OK------>cvarName:nameplateSelfTopInset
+OK------>s_Cvar_nameplateSelfTopInset 0x3671970
+OK------>cvarName:nameplateOtherBottomInset
+OK------>s_Cvar_nameplateOtherBottomInset 0x3671978
+OK------>cvarName:nameplateOtherTopInset
+OK------>s_Cvar_nameplateOtherTopInset 0x3671980
+OK------>cvarName:nameplateLargeBottomInset
+OK------>s_Cvar_nameplateLargeBottomInset 0x3671988
+OK------>cvarName:The inset from the top (in screen percent) that large nameplates are clamped to.
+OK------>cvarName:nameplateClassResourceTopInset
+OK------>s_Cvar_nameplateClassResourceTopInset 0x3671998
+OK------>cvarName:use this to display the class color in enemy nameplate health bars
+OK------>cvarName:Whether to hide the nameplate bars
+OK------>cvarName:use this to display the class color in friendly nameplate health bars
+OK------>cvarName:Color the names above nameplates based on the object.
+OK------>cvarName:When enabled, nameplates will play a brief shrinking animation when disappearing.
+OK------>cvarName:NamePlateHorizontalScale
+OK------>s_Cvar_NamePlateHorizontalScale 0x36719A0
+OK------>cvarName:Applied to vertical size of all nameplates.
+OK------>cvarName:Determines if the the personal nameplate is always shown.
+OK------>cvarName:NameplatePersonalShowInCombat
+OK------>s_Cvar_NameplatePersonalShowInCombat 0x36719A8
+OK------>cvarName:NameplatePersonalShowWithTarget
+OK------>s_Cvar_NameplatePersonalShowWithTarget 0x36719B0
+OK------>cvarName:NameplatePersonalHideDelaySeconds
+OK------>s_Cvar_NameplatePersonalHideDelaySeconds 0x36719B8
+OK------>cvarName:NameplatePersonalHideDelayAlpha
+OK------>s_Cvar_NameplatePersonalHideDelayAlpha 0x36719C0
+OK------>cvarName:enableSourceLocationLookup
+OK------>s_Cvar_enableSourceLocationLookup 0x3672A78
+OK------>cvarName:runeFadeTime
+OK------>cvarName:enableRuneSpentAnim
+OK------>cvarName:runeSpentFlashTime
+OK------>cvarName:runeSpentFadeTime
+OK------>cvarName:autojoinPartyVoice
+OK------>cvarName:autojoinBGVoice
+OK------>s_Cvar_autojoinBGVoice 0x3695688
+OK------>cvarName:PushToTalkSound
+OK------>s_Cvar_PushToTalkSound 0x3695690
+OK------>cvarName:VoiceCommunicationMode
+OK------>cvarName:VoiceOutputVolume
+OK------>s_Cvar_VoiceOutputVolume 0x36956A0
+OK------>cvarName:VoiceInputVolume
+OK------>s_Cvar_VoiceInputVolume 0x36956C0
+OK------>cvarName:VoiceVADSensitivity
+OK------>s_Cvar_VoiceVADSensitivity 0x36956B0
+OK------>cvarName:Which deviceID you would like to use to pick up the sound of your wonderful voice, usually a microphone of some kind, empty string is system default
+OK------>cvarName:VoiceOutputDevice
+OK------>s_Cvar_VoiceOutputDevice 0x36956A8
+OK------>cvarName:VoiceEnableWhenGameIsInBG
+OK------>s_Cvar_VoiceEnableWhenGameIsInBG 0x36956B8
+OK------>cvarName:VoicePushToTalkKeybind
+OK------>s_Cvar_VoicePushToTalkKeybind 0x36956D0
+OK------>cvarName:VoiceSelfDeafened
+OK------>s_Cvar_VoiceSelfDeafened 0x36956D8
+OK------>cvarName:VoiceSelfMuted
+OK------>s_Cvar_VoiceSelfMuted 0x36956E0
+OK------>cvarName:VoiceChatMasterVolumeScale
+OK------>s_Cvar_VoiceChatMasterVolumeScale 0x36956E8
+OK------>cvarName:remoteTextToSpeech
+OK------>cvarName:remoteTextToSpeechVoice
+OK------>s_Cvar_remoteTextToSpeechVoice 0x3695708
+OK------>cvarName:0
+OK------>cvarName:CameraKeepCharacterCentered
+OK------>cvarName:CameraReduceUnexpectedMovement
+OK------>s_Cvar_CameraReduceUnexpectedMovement 0x369FA50
+OK------>cvarName:ShakeStrengthCamera
+OK------>s_Cvar_ShakeStrengthCamera 0x369FA60
+OK------>cvarName:ShakeStrengthUI
+OK------>s_Cvar_ShakeStrengthUI 0x369FA70
+OK------>cvarName:cameraSavedDistance
+OK------>cvarName:cameraSavedVehicleDistance
+OK------>cvarName:cameraSavedPetBattleDistance
+OK------>s_Cvar_cameraSavedPetBattleDistance 0x369FA10
+OK------>cvarName:
+OK------>cvarName:mouseInvertYaw
+OK------>cvarName:mouseInvertPitch
+OK------>cvarName:
+OK------>cvarName:cameraBobbing
+OK------>s_Cvar_cameraBobbing 0x369FA90
+OK------>cvarName:test_cameraHeadMovementStrength
+OK------>s_Cvar_test_cameraHeadMovementStrength 0x369FAA0
+OK------>cvarName:5
+OK------>cvarName:test_cameraHeadMovementMovingStrength
+OK------>s_Cvar_test_cameraHeadMovementMovingStrength 0x369FAE0
+OK------>cvarName:test_cameraHeadMovementStandingStrength
+OK------>s_Cvar_test_cameraHeadMovementStandingStrength 0x369FAC0
+OK------>cvarName:test_cameraHeadMovementMovingDampRate
+OK------>s_Cvar_test_cameraHeadMovementMovingDampRate 0x369FAD0
+OK------>cvarName:test_cameraHeadMovementStandingDampRate
+OK------>s_Cvar_test_cameraHeadMovementStandingDampRate 0x369FAF0
+OK------>cvarName:test_cameraHeadMovementFirstPersonDampRate
+OK------>s_Cvar_test_cameraHeadMovementFirstPersonDampRate 0x369FB00
+OK------>cvarName:test_cameraHeadMovementDeadZone
+OK------>s_Cvar_test_cameraHeadMovementDeadZone 0x369FB10
+OK------>cvarName:test_cameraDynamicPitch
+OK------>cvarName:test_cameraDynamicPitchBaseFovPad
+OK------>s_Cvar_test_cameraDynamicPitchBaseFovPad 0x369FB30
+OK------>cvarName:test_cameraDynamicPitchBaseFovPadFlying
+OK------>s_Cvar_test_cameraDynamicPitchBaseFovPadFlying 0x369FB40
+OK------>cvarName:test_cameraDynamicPitchBaseFovPadDownScale
+OK------>s_Cvar_test_cameraDynamicPitchBaseFovPadDownScale 0x369FB50
+OK------>cvarName:test_cameraDynamicPitchSmartPivotCutoffDist
+OK------>s_Cvar_test_cameraDynamicPitchSmartPivotCutoffDist 0x369FB60
+OK------>cvarName:test_cameraOverShoulder
+OK------>s_Cvar_test_cameraOverShoulder 0x369FB70
+OK------>cvarName:test_cameraTargetFocusEnemyEnable
+OK------>s_Cvar_test_cameraTargetFocusEnemyEnable 0x369FB80
+OK------>cvarName:test_cameraTargetFocusEnemyStrengthPitch
+OK------>s_Cvar_test_cameraTargetFocusEnemyStrengthPitch 0x369FB90
+OK------>cvarName:test_cameraTargetFocusEnemyStrengthYaw
+OK------>s_Cvar_test_cameraTargetFocusEnemyStrengthYaw 0x369FBA0
+OK------>cvarName:test_cameraTargetFocusInteractEnable
+OK------>s_Cvar_test_cameraTargetFocusInteractEnable 0x369FBB0
+OK------>cvarName:test_cameraTargetFocusInteractStrengthPitch
+OK------>s_Cvar_test_cameraTargetFocusInteractStrengthPitch 0x369FBC0
+OK------>cvarName:test_cameraTargetFocusInteractStrengthYaw
+OK------>s_Cvar_test_cameraTargetFocusInteractStrengthYaw 0x369FBD0
+OK------>cvarName:cameraZoomSpeed
+OK------>cvarName:cameraDistanceRateMult
+OK------>cvarName:cameraPitchMoveSpeed
+OK------>s_Cvar_cameraPitchMoveSpeed 0x369FC10
+OK------>cvarName:cameraYawMoveSpeed
+OK------>cvarName:cameraBobbingSmoothSpeed
+OK------>cvarName:cameraFoVSmoothSpeed
+OK------>cvarName:cameraGroundSmoothSpeed
+OK------>cvarName:cameraPitchSmoothSpeed
+OK------>cvarName:cameraTargetSmoothSpeed
+OK------>cvarName:cameraYawSmoothSpeed
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:cameraSmooth
+OK------>cvarName:cameraSmoothPitch
+OK------>s_Cvar_cameraSmoothPitch 0x369FE80
+OK------>cvarName:cameraSmoothYaw
+OK------>s_Cvar_cameraSmoothYaw 0x369FE90
+OK------>cvarName:cameraSmoothStyle
+OK------>s_Cvar_cameraSmoothStyle 0x369FEB0
+OK------>cvarName:cameraSmoothTrackingStyle
+OK------>s_Cvar_cameraSmoothTrackingStyle 0x369FEC0
+OK------>cvarName:cameraCustomViewSmoothing
+OK------>s_Cvar_cameraCustomViewSmoothing 0x369FEA0
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:
+OK------>cvarName:Smooths camera vertical movement. 1 = only while moving, 2 = also while standing still
+OK------>cvarName:cameraTerrainTilt
+OK------>s_Cvar_cameraTerrainTilt 0x36A0510
+OK------>cvarName:cameraTerrainTiltTimeMin
+OK------>s_Cvar_cameraTerrainTiltTimeMin 0x36A0520
+OK------>cvarName:cameraTerrainTiltTimeMax
+OK------>s_Cvar_cameraTerrainTiltTimeMax 0x36A0E90
+OK------>cvarName:cameraWaterCollision
+OK------>s_Cvar_cameraWaterCollision 0x36A0EA0
+OK------>cvarName:cameraHeightIgnoreStandState
+OK------>s_Cvar_cameraHeightIgnoreStandState 0x36A0EB0
+OK------>cvarName:cameraPivot
+OK------>s_Cvar_cameraPivot 0x36A0EC0
+OK------>cvarName:0.05
+OK------>cvarName:cameraPivotDYMin
+OK------>s_Cvar_cameraPivotDYMin 0x36A0EE0
+OK------>cvarName:cameraDive
+OK------>s_Cvar_cameraDive 0x36A0EF0
+OK------>cvarName:
+OK------>cvarName:cameraSubmergePitch
+OK------>s_Cvar_cameraSubmergePitch 0x36A0F20
+OK------>cvarName:
+OK------>cvarName:cameraPitchSmoothMin
+OK------>s_Cvar_cameraPitchSmoothMin 0x36A0F30
+OK------>cvarName:23.0
+OK------>cvarName:cameraYawSmoothMin
+OK------>s_Cvar_cameraYawSmoothMin 0x36A0F50
+OK------>cvarName:cameraYawSmoothMax
+OK------>s_Cvar_cameraYawSmoothMax 0x36A0F60
+OK------>cvarName:cameraSmoothTimeMin
+OK------>s_Cvar_cameraSmoothTimeMin 0x36A0F70
+OK------>cvarName:cameraSmoothTimeMax
+OK------>s_Cvar_cameraSmoothTimeMax 0x36A0F80
+OK------>cvarName:videoOptionsVersionDefault
+OK------>cvarName:maxFPS
+OK------>cvarName:useMaxFPS
+OK------>cvarName:maxFPSBk
+OK------>cvarName:useMaxFPSBk
+OK------>cvarName:gxAdapter
+OK------>s_Cvar_gxAdapter 0x38EF570
+OK------>cvarName:ForceAllowAero
+OK------>s_Cvar_ForceAllowAero 0x38EF570
+OK------>cvarName:0: Prism backends Disabled. 1: Default Prism backends Enabled. 2: Experimental Prism backends Enabled.
+OK------>cvarName:DriverVersionCheck
+OK------>s_Cvar_DriverVersionCheck 0x38EF578
+OK------>cvarName:sceneOcclusionEnable
+OK------>s_Cvar_sceneOcclusionEnable 0x4C43B30
+OK------>cvarName:assaoNormals
+OK------>cvarName:assaoRadius
+OK------>s_Cvar_assaoRadius 0x4C43C08
+OK------>cvarName:assaoShadowMult
+OK------>s_Cvar_assaoShadowMult 0x4C43C10
+OK------>cvarName:assaoShadowPower
+OK------>s_Cvar_assaoShadowPower 0x4C43C18
+OK------>cvarName:assaoShadowClamp
+OK------>s_Cvar_assaoShadowClamp 0x4C43C20
+OK------>cvarName:assaoHorizonAngleThresh
+OK------>s_Cvar_assaoHorizonAngleThresh 0x4C43C28
+OK------>cvarName:assaoFadeOutFrom
+OK------>s_Cvar_assaoFadeOutFrom 0x4C43C30
+OK------>cvarName:ASSAO Fade Out To [0.0,  ~ ] Distance at which the effect is faded out.
+OK------>cvarName:assaoAdaptiveQualityLimit
+OK------>s_Cvar_assaoAdaptiveQualityLimit 0x4C43C40
+OK------>cvarName:assaoBlurPassCount
+OK------>s_Cvar_assaoBlurPassCount 0x4C43C48
+OK------>cvarName:assaoSharpness
+OK------>s_Cvar_assaoSharpness 0x4C43C50
+OK------>cvarName:assaoTemporalSSAngleOffset
+OK------>s_Cvar_assaoTemporalSSAngleOffset 0x4C43C58
+OK------>cvarName:assaoTemporalSSRadiusOffset
+OK------>s_Cvar_assaoTemporalSSRadiusOffset 0x4C43C60
+OK------>cvarName:assaoDetailShadowStrength
+OK------>s_Cvar_assaoDetailShadowStrength 0x4C43C68
+OK------>cvarName:CACAO Sigma squared value for use in bilateral upsampler giving similarity weighting for neighbouring pixels. Should be greater than 0.0.
+OK------>cvarName:ssaoMagicNormals
+OK------>s_Cvar_ssaoMagicNormals 0x4C43C78
+OK------>cvarName:ssaoMagicThresholdLow
+OK------>s_Cvar_ssaoMagicThresholdLow 0x4C43C80
+OK------>cvarName:ssaoMagicThresholdHigh
+OK------>s_Cvar_ssaoMagicThresholdHigh 0x4C43C88
+OK------>cvarName:
+OK------>cvarName:violenceLevel
+Done 
